@@ -17,29 +17,26 @@ class Node {
 };
 
 
-// Use this function to create a Binary Search Tree (BST) tree with the following values
-// {13, 0, 7, 6, 21, 15, -2, 12, 99, 18, 19, -1}
+// The BST created below contains the following values:
+// {7, 0, 18, -2, 6, 13, 21, -1, 12, 15, 19, 99}
 Node* createTree() {
-	// root
-	Node *root = nullptr;
+    // root (level 0)
+    Node *root = nullptr;
 
-	// level 1 (children of root)
+    // level 1 (children of root)
 
-	// level 2 (children of 0)
+    // level 2 (children of 0)
 
-	// level 2 (children of 21)
+    // level 2 (children of 18)
 
-	// level 3 (children of -2)
+    // level 3 (children of -2)
 
-	// level 3 (children of 7)
+    // level 3 (children of 13)
 
-	// level 3 (children of 15)
+    // level 3 (children of 21)
 
-	// level 3 (children of 99)
-
-	// level 4 (children of 18)
-
-	return root;
+	
+    return root;
 }
 
 // Write a function that will search the BST for a target value
